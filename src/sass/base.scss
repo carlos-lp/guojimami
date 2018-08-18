@@ -1,0 +1,141 @@
+header{
+    width: 100%;
+.site-navs{
+        height: 22px;
+        padding-top: 20px;
+        img{
+            position:relative;
+            top:10px;
+        }
+        .site-menu{
+            float:right;
+            margin-right: 45px;
+            @extend img;
+            li{
+                float: left;
+                line-height: 16px;
+                padding:2px 0;
+                .welcome{
+                    a{
+                        color: #333;
+                        font-family: '微软雅黑';
+                        span{
+                            padding-right: 8px;
+                            border-right: 1px solid #EDE4DE;
+                        }
+                        span.register{
+                            padding-left: 8px;
+                        }
+                    }
+
+                    a:hover{
+                        color:#e19619;
+                        text-decoration:underline;
+                    }
+                }
+            }
+            li:nth-child(2){
+                margin-left: 22px;
+                padding-left: 16px;
+                background: url('../img/index_app_download.png') no-repeat -3px;
+            }
+            li:nth-child(3){
+                margin-left: 26px;
+                padding-left: 24px;
+                background: url('../img/mbg.png') no-repeat;
+            }
+        }
+    }
+.site-logo{
+    overflow:hidden;
+    margin-bottom: 10px;
+    .logo{
+        a{
+            img{
+                width:400px;
+                margin-top: 15px;
+            }
+        }
+    }
+    .logo-menu{
+        margin-top: 55px;
+        margin-left: 30px;
+        width: 444px;
+        ul{
+            li{
+                float: left;
+                margin-right: 23px;
+                a{
+                    font-size: 14px;
+                    line-height: 30px;
+                    font-family: '微软雅黑';
+                    display:block;
+
+                }
+                a:hover{
+                    color:#e19619;
+                    border-bottom: 2px solid #e19619;
+                }
+            }
+        }   
+    }
+    .search{
+        ul{
+            overflow:hidden;
+            margin-top: 30px;
+            margin-bottom: 8px;
+            li{
+                float: left;
+                margin-right:18px;
+                a{
+                    color:#A496A4;
+                }
+                a:hover{
+                    text-decoration:underline;
+                }
+            }
+        }
+        input{
+            width: 270px;
+            height: 26px;
+            border: 2px solid #C61A2F;
+            float: left;
+            padding-left: 6px;
+        }
+        button{
+            width: 30px;
+            height: 30px;
+            background-color: #C61A2F;
+            border:0 none;float: left;
+            box-sizing:border-box;
+        }
+    }
+}
+}
+nav{
+    background: url("../img/naver_bj.gif");
+    ul{
+        overflow:hidden;
+        li{
+            float: left;
+            
+            a{
+                display:block;
+                height: 40px;
+                margin-right:18px;
+                line-height: 40px;
+                color:#333;
+               
+            }
+            a.active{
+                color:#e19619;
+            }
+            a:hover{
+                color:#e19619;
+            }
+        }
+    }
+}
+footer{
+    
+}

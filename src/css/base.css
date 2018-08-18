@@ -1,0 +1,58 @@
+@charset "UTF-8";
+header { width: 100%; }
+
+header .site-navs { height: 22px; padding-top: 20px; }
+
+header .site-navs img, header .site-navs .site-menu { position: relative; top: 10px; }
+
+header .site-navs .site-menu { float: right; margin-right: 45px; }
+
+header .site-navs .site-menu li { float: left; line-height: 16px; padding: 2px 0; }
+
+header .site-navs .site-menu li .welcome a { color: #333; font-family: '微软雅黑'; }
+
+header .site-navs .site-menu li .welcome a span { padding-right: 8px; border-right: 1px solid #EDE4DE; }
+
+header .site-navs .site-menu li .welcome a span.register { padding-left: 8px; }
+
+header .site-navs .site-menu li .welcome a:hover { color: #e19619; text-decoration: underline; }
+
+header .site-navs .site-menu li:nth-child(2) { margin-left: 22px; padding-left: 16px; background: url("../img/index_app_download.png") no-repeat -3px; }
+
+header .site-navs .site-menu li:nth-child(3) { margin-left: 26px; padding-left: 24px; background: url("../img/mbg.png") no-repeat; }
+
+header .site-logo { overflow: hidden; margin-bottom: 10px; }
+
+header .site-logo .logo a img, header .site-logo .logo a .site-navs .site-menu, header .site-navs .site-logo .logo a .site-menu { width: 400px; margin-top: 15px; }
+
+header .site-logo .logo-menu { margin-top: 55px; margin-left: 30px; width: 444px; }
+
+header .site-logo .logo-menu ul li { float: left; margin-right: 23px; }
+
+header .site-logo .logo-menu ul li a { font-size: 14px; line-height: 30px; font-family: '微软雅黑'; display: block; }
+
+header .site-logo .logo-menu ul li a:hover { color: #e19619; border-bottom: 2px solid #e19619; }
+
+header .site-logo .search ul { overflow: hidden; margin-top: 30px; margin-bottom: 8px; }
+
+header .site-logo .search ul li { float: left; margin-right: 18px; }
+
+header .site-logo .search ul li a { color: #A496A4; }
+
+header .site-logo .search ul li a:hover { text-decoration: underline; }
+
+header .site-logo .search input { width: 270px; height: 26px; border: 2px solid #C61A2F; float: left; padding-left: 6px; }
+
+header .site-logo .search button { width: 30px; height: 30px; background-color: #C61A2F; border: 0 none; float: left; box-sizing: border-box; }
+
+nav { background: url("../img/naver_bj.gif"); }
+
+nav ul { overflow: hidden; }
+
+nav ul li { float: left; }
+
+nav ul li a { display: block; height: 40px; margin-right: 18px; line-height: 40px; color: #333; }
+
+nav ul li a.active { color: #e19619; }
+
+nav ul li a:hover { color: #e19619; }
