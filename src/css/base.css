@@ -47,8 +47,6 @@ header .site-logo .search button { width: 30px; height: 30px; background-color: 
 
 nav { background: url("../img/naver_bj.gif"); }
 
-nav ul { overflow: hidden; }
-
 nav ul li { float: left; }
 
 nav ul li a { display: block; height: 40px; margin-right: 18px; line-height: 40px; color: #333; }
@@ -56,3 +54,67 @@ nav ul li a { display: block; height: 40px; margin-right: 18px; line-height: 40p
 nav ul li a.active { color: #e19619; }
 
 nav ul li a:hover { color: #e19619; }
+
+footer .foot_guid { border: 1px solid #D7D7D7; overflow: hidden; }
+
+footer .foot_guid ul { height: 284px; width: 150px; padding-top: 14px; border-right: 1px solid #D7D7D7; float: left; }
+
+footer .foot_guid ul li { padding-left: 20px; }
+
+footer .foot_guid ul li h3 { line-height: 18px; color: #000; }
+
+footer .foot_guid ul li p { line-height: 18px; margin-bottom: 8px; color: #000; }
+
+footer .foot_guid ul li a { line-height: 24px; color: #737373; }
+
+footer .foot_guid ul li a:hover { color: #e19619; border-bottom: 1px solid #e19619; }
+
+footer .foot_guid ul.guid_link li { padding-left: 0px; text-align: center; }
+
+footer .foot_guid ul.guid_link li p { color: #737373; line-height: 28px; }
+
+footer .foot_guid .contact { text-align: center; float: left; width: 292px; }
+
+footer .foot_guid .contact div.contact_p { border-bottom: 1px solid #D7D7D7; padding-top: 44px; height: 104px; }
+
+footer .foot_guid .contact div.contact_e { padding-top: 22px; height: 126px; }
+
+footer .foot_guid .contact p.hotline { line-height: 12px; color: #737373; }
+
+footer .foot_guid .contact p.tel { font-size: 16px; line-height: 36px; font-weight: bold; color: #000; }
+
+footer .foot_guid .contact p.tel_time { color: #B2B2B2; }
+
+footer .foot_guid .contact p.email { line-height: 12px; }
+
+footer .foot_guid .contact p.email_num { line-height: 30px; font-weight: bold; color: #000; font-size: 14px; }
+
+footer .foot_guid .contact p.email_num a:hover { text-decoration: underline; }
+
+footer .foot_guid .contact p.ps { line-height: 12px; margin-bottom: 20px; }
+
+footer .foot_brand { height: 90px; background: url("../img/footer_ico1.png") no-repeat 0 10px; }
+
+footer .foot_links { height: 41px; background: url("../img/naver_bj.gif"); }
+
+footer .foot_links ul { overflow: hidden; width: 1200px; margin: 0 auto; }
+
+footer .foot_links ul li { float: left; }
+
+footer .foot_links ul li a { margin-right: 15px; line-height: 41px; }
+
+footer .foot_links ul li a:hover { color: #e19619; }
+
+footer .foot_b { text-align: center; }
+
+footer .foot_b p { color: #9696B1; line-height: 40px; }
+
+footer .foot_b p a { color: #9696B1; }
+
+footer .foot_b p a:hover { text-decoration: underline; }
+
+footer .foot_b .foot_img img, footer .foot_b .foot_img header .site-navs .site-menu, header .site-navs footer .foot_b .foot_img .site-menu { border: 1px solid #E1E1E1; }
+
+footer .foot_b .foot_img img.verify, footer .foot_b .foot_img header .site-navs .verify.site-menu, header .site-navs footer .foot_b .foot_img .verify.site-menu { width: 102px; border: 0 none; }
+
+footer .foot_b .foot_img a:hover .verify { width: 122px; margin-left: -20px; margin-top: -8px; position: relative; left: 10px; top: 4px; }

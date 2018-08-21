@@ -38,6 +38,7 @@ header{
                 margin-left: 22px;
                 padding-left: 16px;
                 background: url('../img/index_app_download.png') no-repeat -3px;
+                
             }
             li:nth-child(3){
                 margin-left: 26px;
@@ -112,10 +113,10 @@ header{
     }
 }
 }
+//一级导航
 nav{
     background: url("../img/naver_bj.gif");
     ul{
-        overflow:hidden;
         li{
             float: left;
             
@@ -136,6 +137,160 @@ nav{
         }
     }
 }
+//二级导航
+// .milk{
+//     position:relative;
+//     .milk2{
+//         position:absolute;
+        
+//     }
+// }
+
+
 footer{
-    
+    .foot_guid{
+        border: 1px solid #D7D7D7;
+        overflow:hidden;
+        ul{
+            height: 284px;
+            width: 150px;
+            padding-top: 14px;
+            border-right: 1px solid #D7D7D7;
+            float: left;
+            li{
+                padding-left: 20px;
+                h3{
+                    line-height: 18px;
+                    color:#000;
+                }
+                p{
+                    line-height: 18px;
+                    margin-bottom: 8px;
+                    color:#000;
+                }
+                a{
+                    line-height: 24px;
+                    color:#737373;
+                }
+                a:hover{
+                    color:#e19619;
+                    border-bottom: 1px solid #e19619;
+                }
+            }
+        }
+        ul.guid_link{
+            li{
+                padding-left: 0px;
+                text-align:center;
+                p{
+                    color:#737373;
+                    line-height: 28px;
+                }
+                
+            }
+        }
+        .contact{
+            text-align:center;
+            float: left;
+            width: 292px;
+            div.contact_p{
+                border-bottom: 1px solid #D7D7D7;
+                padding-top: 44px;
+                height: 104px;
+            }
+            div.contact_e{
+                padding-top: 22px;
+                height: 126px;
+            }
+                p.hotline{
+                    line-height: 12px;
+                    color:#737373;
+                }
+                p.tel{
+                    font-size: 16px;
+                    line-height: 36px;
+                    font-weight: bold;
+                    color:#000;
+                }
+                p.tel_time{
+                    color:#B2B2B2;
+                }
+                p.email{
+                    line-height: 12px;
+                }
+                p.email_num{
+                    line-height: 30px;
+                    font-weight: bold;
+                    color:#000;
+                    font-size: 14px;
+                    a:hover{
+                        text-decoration:underline;
+                    }
+                }
+                p.ps{
+                    line-height: 12px;
+                    margin-bottom: 20px;
+                }
+            
+
+        }
+    }
+    .foot_brand{
+        height: 90px;
+        background: url("../img/footer_ico1.png") no-repeat 0 10px;
+    }
+    .foot_links{
+        height: 41px;
+        background: url("../img/naver_bj.gif");
+        ul{
+            overflow:hidden;
+            width: 1200px;
+            margin:0 auto;
+            li{
+                float: left;
+                a{
+                    margin-right: 15px;
+                    line-height: 41px;
+                }
+                a:hover{
+                    color:#e19619;
+                }
+            }
+            li.links{
+                
+            }
+        }
+    }
+    .foot_b{
+        text-align:center;
+        p{
+            color:#9696B1;
+            line-height: 40px;
+            a{
+                color:#9696B1;
+            }
+            a:hover{
+                text-decoration:underline;
+            }
+        }
+        .foot_img{
+            
+            img{
+                border:1px solid #E1E1E1;
+            }
+            img.verify{
+                width: 102px;
+                border:0 none;
+            }
+            a:hover .verify{
+                width: 122px;
+                margin-left: -20px;
+                margin-top: -8px;
+                position:relative;
+                left:10px;
+                top:4px;
+            }
+        }
+        
+    }
 }
