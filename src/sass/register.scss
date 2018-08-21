@@ -1,0 +1,180 @@
+header{
+    border-bottom: 1px solid #ddd;
+}
+.site-navs{
+    height: 22px;
+    padding-top: 20px;
+    img{
+        margin-top: 10px;
+    }  
+}
+.hb{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position:relative;
+    a{
+        img{
+            width: 400px;
+        }
+    }
+    img.baozheng{
+        position:absolute;
+        right:0;
+    }
+}
+
+.main{
+    margin:30px 0;
+}
+.login{
+    padding-top: 20px;
+    width:380px;
+    padding-left: 14px;
+    color:#969696;
+    
+    p{
+        font-size: 13px;
+        margin-bottom: 20px;
+        span{
+            margin-right: 10px;
+        }
+        a{
+            color:#e19619;
+            margin-left: 5px;
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+    }
+    
+.register{
+    padding-left:5px;
+}
+%com{
+    height: 30px;
+    background-color: #FDFDFD;
+    border:1px solid #E4E4E4;
+    margin-bottom: 20px;
+    padding-left:5px;
+}
+.reg_num{
+    @extend %com;
+    width: 230px;
+    
+}
+.code{
+    @extend %com;
+    width: 110px;
+}
+.phone_psw{
+    @extend %com;
+    width: 110px;
+}
+.set_psw{
+    @extend %com;
+    width: 230px;
+}
+.con_psw{
+    @extend %com;
+    width: 230px;
+}
+.submit{
+    @extend %com;
+    width:240px;
+    height: 33px;
+    background-color: #EAAF13;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 16px;
+}
+.show_code{
+    display:inline-block;
+    width:100px;
+    height: 20px;
+    background-color: #0f0;
+    position:relative;
+    top:-10px;
+    left:20px;
+    text-align:center;
+    letter-spacing: 3px;
+    line-height: 20px;
+    color:#fff;
+    cursor: default;
+}
+.get_psw{
+    width:100px;
+    height: 30px;
+    background-color: #FFE6A5;
+    border:1px solid #FFBD3D;
+    color:#FFBD3D;
+    border-radius: 4px;
+    position:relative;
+    top:-8px;
+    left:20px;
+}
+
+   
+
+}
+
+
+
+
+
+footer{
+    height: 140px;
+    .foot_links{
+        height: 41px;
+        background: url("../img/naver_bj.gif");
+        ul{
+            overflow:hidden;
+            width: 1200px;
+            margin:0 auto;
+            li{
+                float: left;
+                a{
+                    margin-right: 15px;
+                    line-height: 41px;
+                }
+                a:hover{
+                    color:#e19619;
+                }
+            }
+            li.links{
+                
+            }
+        }
+    }
+    .foot_b{
+        text-align:center;
+        p{
+            color:#9696B1;
+            line-height: 40px;
+            a{
+                color:#9696B1;
+            }
+            a:hover{
+                text-decoration:underline;
+            }
+        }
+        .foot_img{
+            
+            img{
+                border:1px solid #E1E1E1;
+            }
+            img.verify{
+                width: 102px;
+                border:0 none;
+            }
+            a:hover .verify{
+                width: 122px;
+                margin-left: -20px;
+                margin-top: -8px;
+                position:relative;
+                left:10px;
+                top:4px;
+            }
+        }
+        
+    }
+}

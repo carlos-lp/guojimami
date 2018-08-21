@@ -1,0 +1,69 @@
+header { border-bottom: 1px solid #ddd; }
+
+.site-navs { height: 22px; padding-top: 20px; }
+
+.site-navs img { margin-top: 10px; }
+
+.hb { margin-top: 20px; margin-bottom: 10px; position: relative; }
+
+.hb a img { width: 400px; }
+
+.hb img.baozheng { position: absolute; right: 0; }
+
+.main { margin: 30px 0; }
+
+.login { padding-top: 20px; width: 380px; padding-left: 14px; color: #969696; }
+
+.login p { font-size: 13px; margin-bottom: 20px; }
+
+.login p span { margin-right: 10px; }
+
+.login p a { color: #e19619; margin-left: 5px; }
+
+.login p a:hover { text-decoration: underline; }
+
+.login .register { padding-left: 5px; }
+
+.login .reg_num, .login .code, .login .phone_psw, .login .set_psw, .login .con_psw, .login .submit { height: 30px; background-color: #FDFDFD; border: 1px solid #E4E4E4; margin-bottom: 20px; padding-left: 5px; }
+
+.login .reg_num { width: 230px; }
+
+.login .code { width: 110px; }
+
+.login .phone_psw { width: 110px; }
+
+.login .set_psw { width: 230px; }
+
+.login .con_psw { width: 230px; }
+
+.login .submit { width: 240px; height: 33px; background-color: #EAAF13; border-radius: 5px; color: #fff; font-size: 16px; }
+
+.login .show_code { display: inline-block; width: 100px; height: 20px; background-color: #0f0; position: relative; top: -10px; left: 20px; text-align: center; letter-spacing: 3px; line-height: 20px; color: #fff; cursor: default; }
+
+.login .get_psw { width: 100px; height: 30px; background-color: #FFE6A5; border: 1px solid #FFBD3D; color: #FFBD3D; border-radius: 4px; position: relative; top: -8px; left: 20px; }
+
+footer { height: 140px; }
+
+footer .foot_links { height: 41px; background: url("../img/naver_bj.gif"); }
+
+footer .foot_links ul { overflow: hidden; width: 1200px; margin: 0 auto; }
+
+footer .foot_links ul li { float: left; }
+
+footer .foot_links ul li a { margin-right: 15px; line-height: 41px; }
+
+footer .foot_links ul li a:hover { color: #e19619; }
+
+footer .foot_b { text-align: center; }
+
+footer .foot_b p { color: #9696B1; line-height: 40px; }
+
+footer .foot_b p a { color: #9696B1; }
+
+footer .foot_b p a:hover { text-decoration: underline; }
+
+footer .foot_b .foot_img img { border: 1px solid #E1E1E1; }
+
+footer .foot_b .foot_img img.verify { width: 102px; border: 0 none; }
+
+footer .foot_b .foot_img a:hover .verify { width: 122px; margin-left: -20px; margin-top: -8px; position: relative; left: 10px; top: 4px; }
