@@ -28,6 +28,12 @@ $(function(){
         }
 
     }
+    $('.reg_num').on('blur',function(){
+      if(!/^1[3-9]\d{9}$/.test($reg_num.val())){
+        alert('手机号格式不正确');
+            return false;
+        }
+    });
 
 
 
@@ -37,9 +43,48 @@ $(function(){
     var $set_psw = $('.set_psw');
     var $con_psw = $('.con_psw');
     
+    //点击提交时的验证
     $('.submit').on('click',function(){
-        
-    })
+        if($code.val()!=$show_code.html()){
+            alert('验证码有误');
+            return false;
+        }
+        if($set_psw.val()!=$con_psw.val()){
+            alert('两次输入的密码不一致');
+            return false;
+        };
+        if($set_psw.val().length<6){
+            alert('密码太短');
+            return false;
+        }
+        var $checkbox = $('.agree').prop('checked');
+        if($checkbox==false){
+            alert('请先阅读并同意服务条款');
+            return false;
+        }
+
+        $.ajax({
+            type:'POST',
+            url:'../api/register.php',
+            async:true,
+            data:{
+                 reg_num:$('.reg_num').val(),
+                 set_psw:$('.set_psw').val()
+            },
+            dataType:'json',
+            success:function($result){
+                if($result=='fail'){
+                    alert('123');
+                    break;
+                    }else{
+                        alert('success');
+                    }
+                }
+        });
+
+    });
+    //填表单时的验证
+    
     
     
 

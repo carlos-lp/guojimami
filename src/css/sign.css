@@ -38,13 +38,13 @@ header { border-bottom: 1px solid #ddd; }
 
 .login .lp .get_code { height: 35px; background-color: #FFE6A5; color: #E19619; line-height: 35px; border: 1px solid #FFBD3D; border-radius: 4px; font-size: 12px; letter-spacing: 1px; }
 
-.login .lp .btn_login { width: 240px; background-color: #E5A90B; color: #fff; height: 35px; margin-top: 25px; border-radius: 4px; margin-left: 5px; letter-spacing: 3px; }
+.login .lp .btn_loginl { width: 240px; background-color: #E5A90B; color: #fff; height: 35px; margin-top: 25px; border-radius: 4px; margin-left: 5px; letter-spacing: 3px; }
 
 .login .lc { display: none; }
 
-.login .lc .cmt, .login .lc .cmp, .login .lc .btn_login { margin-top: 30px; width: 240px; height: 35px; border: 1px solid #E4E4E4; padding-left: 10px; margin-left: 5px; }
+.login .lc .cmt, .login .lc .cmp, .login .lc .btn_loginr { margin-top: 30px; width: 240px; height: 35px; border: 1px solid #E4E4E4; padding-left: 10px; margin-left: 5px; }
 
-.login .lc .btn_login { border-radius: 4px; background-color: #F0B91E; color: #fff; width: 250px; cursor: pointer; }
+.login .lc .btn_loginr { border-radius: 4px; background-color: #F0B91E; color: #fff; width: 250px; cursor: pointer; }
 
 .login .lc a { font-size: 12px; position: relative; top: 15px; left: 20px; color: #B9B9B9; }
 

@@ -1,0 +1,190 @@
+.buy{
+    margin-top: 20px;
+    .glass{
+        margin-top: 30px;
+        .small{
+            width:60px;
+            img{
+                width:60px;
+            }
+        }
+    }
+    .details{
+        margin-top: 30px;
+        width:600px;
+        h2{
+            font-weight: bold;
+            font-size: 14px;
+            color:#000;
+            height: 30px;
+            line-height: 30px;
+        }
+        .sy{
+            color:#e11937;
+            height: 30px;
+
+        }
+        .koubei{
+            border-bottom: 1px dotted #666;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .price{
+            height: 36px;
+            span{
+                font-size: 22px;
+                color:#e11937;
+                margin-right:30px;
+                margin-left: 5px;
+                font-weight: bold;
+            }
+            span.no{
+                font-size: 13px;
+                color:#666;
+                font-weight: normal;
+                text-decoration:line-through;
+            }
+        }
+        .shui{
+            height: 36px;
+            line-height: 36px;
+            img{
+                margin-left: 20px;
+            }
+        }
+        .youhui{
+            background-color: #fafafa;;
+            border: 1px solid #e1e1e1;
+            padding:20px 15px;
+            p{
+                color:#535353;
+                height: 30px;
+            }
+            .msg{
+                width: 495px;
+                span{
+                    background-color: #ff2837;
+                        color:#fff;
+                        display:inline-block;
+                        width:35px;
+                        height: 12px;
+                        padding:3px 0;
+                        margin-right: 10px;
+                        border-radius:3px;
+                        text-align:center;
+                }
+                .msgt{
+                    color:#e19619;
+                    border-bottom: 1px dotted #ccc;
+                    margin-bottom: 10px;
+                    
+                }
+                p.msgb{
+                    color:#969696;
+                }
+                a{
+                    display:inline-block;
+                    background: url("../img/lingquan.png") no-repeat;
+                    width:65px;
+                    height: 22px;
+                    text-align:center;
+                    line-height: 22px;
+                    color:#fff;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .method{
+            height: 33px;
+            color:#969696;
+            margin-top: 20px;
+            span{
+                color:#535353;
+            }
+            a{
+                color:#e19619;
+                margin-left: 10px;
+            }
+            a:hover{
+                text-decoration:underline;
+            }
+        }
+        .weight{
+            color:#969696;
+            margin-bottom: 20px;
+            span{
+                color:#535353;
+            }
+        }
+        .dinggou{
+            input{
+                width: 42px;
+                height: 21px;
+                border: 1px solid #e4e4e4;
+                text-align:center;
+                margin:0 10px;
+            }
+            span{
+                margin-left: 30px;
+                color:#e21735;
+            }
+        }
+        button{
+
+            width: 195px;
+            height: 35px;
+            margin: 20px 20px 20px 0;
+            color:#fff;
+            background-color: #e6b606;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+        .jwsm{
+            width: 560px;
+            padding: 10px;
+            margin: 10px 0;
+            background: #fafafa;
+            
+            border: 1px solid #e1e1e1;
+            p{
+                line-height: 24px;
+                color:#969696;
+            }
+        }
+    }
+}
+.small-zoom{
+    position:relative;
+    width:470px;
+    overflow:hidden;
+    img{
+        display:block;
+    }
+    .zoom{
+        display:none;
+        position: absolute;
+        width:30px;
+        height:30px;
+        border:1px solid #fc0;
+        background-color:#ff0;
+        background-color: rgba(255,255,0,0.3);
+        filter:alpha(Opacity=30);
+
+    }
+}
+.big-zoom{
+    display:none;
+    position: absolute;
+    width:400px;
+    height:300px;
+    overflow:hidden;
+    border:2px solid #eee;
+    img{
+        position: absolute;
+        left:0;
+        right:0;
+        min-width:1000px;
+    }
+}
+

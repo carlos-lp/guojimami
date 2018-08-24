@@ -46,18 +46,69 @@ $(function(){
         $('.show_code').html(res);
     });
 
-    //正则验证表单
-    var btn=document.querySelector('.btn_login');
-    btn.onclick = function(){
-        var code = document.querySelector('.show_code').innerHTML;
-        var auth = document.querySelector('.auth').value;
-        if(code != auth){
-            alert('您输入的验证码不正确');
+    //验证手机号是否合格
+    $phone_num = $('.phone_num');
+    $('.phone_num').on('change',function(){
+      if(!/^1[3-9]\d{9}$/.test($phone_num.val())){
+        alert('手机格式不正确');
             return false;
         }
+    });
+    $('.btn_loginl').on('click',function(){
+        if($('.show_code').html()!=$('.auth').val()){
+            alert("验证码有误");
+            return false;
+        }
+        console.log($('.cmt').val());
 
-    }
+        $.ajax({
+            type:'POST',
+            url:'../api/sign.php',
+            async:true,
+            data:{
+                 phone_num:$('.phone_num').val(),
+            },
+            dataType:'json',
+            success:function($result){
+                if($result=='fail'){
+                    console.log(666);
+                    break;
+                    }
+                }
+        });
 
+    });
+    $('.btn_loginr').on('click',function(){
+
+        $.ajax({
+            type:'POST',
+            url:'../api/sign.php',
+            async:"true",
+            data:{
+                 "phone_num":$('.cmt').val(),
+                 "password":$('.cmp').val()
+            },
+            dataType:'json',
+            success:function($result){
+                if($result=="fail"){
+                    alert("666");
+
+                    break;
+                }else{
+                    alert(211);
+                    
+                    window.location.href="http://localhost:8012/html/success.html";
+                    break;
+                }
+            }
+        });
+
+
+
+
+    });
+
+    
 
 
 

@@ -1,0 +1,53 @@
+.cart_nav { height: 50px; line-height: 50px; margin-top: 5px; padding-left: 20px; }
+
+.cart_nav a:hover { color: #B4B4B4; text-decoration: underline; }
+
+.step div { width: 396px; height: 40px; background: url("../img/flow_lc_bj.gif") no-repeat; text-align: center; line-height: 40px; font-size: 18px; margin-bottom: 20px; }
+
+.step div:nth-child(2) { background: url("../img/flow_lc_bj1.gif") no-repeat; }
+
+.step div:nth-child(3) { background: url("../img/flow_lc_bj2.gif") no-repeat; }
+
+.watch { margin-left: 40px; }
+
+.watch span { display: block; width: 18px; height: 18px; background-color: #50c3d7; color: #fff; text-align: center; line-height: 18px; border-radius: 50%; float: left; }
+
+.watch a { display: block; float: left; color: #50c3d7; margin-left: 10px; }
+
+.hint { height: 30px; line-height: 30px; color: #c40000; border: 1px solid #d7d7d7; padding: 15px 20px; margin-top: 20px; }
+
+.hint p { float: left; }
+
+.hint a { float: right; color: #e19619; }
+
+.shop_list { margin-top: 20px; }
+
+.shop_list .td1 { width: 7%; }
+
+.shop_list .td2 { width: 40%; }
+
+.shop_list .td3 { width: 8%; }
+
+.shop_list .td4 { width: 12%; }
+
+.shop_list .td5 { width: 10%; }
+
+.shop_list .td6 { width: 7%; }
+
+.shop_list .td7 { width: 7%; }
+
+.shop_list .td8 { width: 9%; }
+
+.shop_list table { width: 100%; }
+
+.shop_list table tbody { text-align: center; width: 100%; border: 1px solid #ddd; line-height: 35px; }
+
+.shop_list .yh { padding: 10px 0; }
+
+.shop_list .yh .manjian { border: 1px solid #ff2837; border-radius: 4px; color: #ff2837; height: 18px; line-height: 18px; display: block; float: left; padding: 0px 4px; }
+
+.shop_list .yh a { float: left; height: 18px; line-height: 18px; margin-left: 5px; color: #969696; }
+
+.shop_list .yh a span { color: #ff2837; }
+
+.shop_list .acc { border: 1px solid #ccc; height: 122px; margin-top: 20px; }

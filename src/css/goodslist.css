@@ -1,0 +1,85 @@
+.list .list_top { height: 50px; line-height: 50px; padding-left: 20px; }
+
+.list .list_bot .listl { width: 240px; }
+
+.list .list_bot .listl ul { border-left: 1px solid #ebebeb; border-top: 1px solid #ebebeb; }
+
+.list .list_bot .listl ul li { height: 40px; line-height: 35px; padding-left: 20px; border-right: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; }
+
+.list .list_bot .listl ul li a { color: #737373; }
+
+.list .list_bot .listl ul li a.active { color: #cd0000; }
+
+.list .list_bot .listl ul li:first-child { background-color: #fafafa; padding-left: 10px; height: 35px; }
+
+.list .list_bot .listl img { margin-top: 20px; }
+
+.list .list_bot .listl .hot { border: 1px solid #e2e2e2; margin-top: 20px; padding-bottom: 20px; }
+
+.list .list_bot .listl .hot h3 { background: #fafafa url("../img/goods_right_bg.gif") no-repeat; height: 35px; border-bottom: 1px solid #e2e2e2; text-align: center; line-height: 35px; }
+
+.list .list_bot .listl .hot .hot_list { text-align: center; }
+
+.list .list_bot .listl .hot .hot_list a { color: #535353; }
+
+.list .list_bot .listl .hot .hot_list a img { width: 150px; }
+
+.list .list_bot .listl .hot .hot_list a p { width: 150px; padding-left: 40px; text-align: left; line-height: 18px; }
+
+.list .list_bot .listl .hot .hot_list p { text-align: left; padding-left: 40px; }
+
+.list .list_bot .listl .hot .hot_list p .pri { color: #B9966A; line-height: 18px; margin-right: 5px; }
+
+.list .list_bot .listr { border: 1px solid #ebebeb; margin-left: 15px; width: 943px; color: #000; }
+
+.list .list_bot .listr h3 { background-color: #fafafa; padding-left: 10px; height: 30px; line-height: 30px; border-bottom: 1px solid #ebebeb; }
+
+.list .list_bot .listr .brand { padding: 15px 0; border-bottom: 1px solid #ebebeb; }
+
+.list .list_bot .listr .brand .brandl { width: 90px; height: 18px; margin-right: 15px; text-align: right; }
+
+.list .list_bot .listr .brand .brandr { width: 810px; }
+
+.list .list_bot .listr .brand .brandr span { display: inline-block; width: 183px; height: 63px; border: 1px solid #ebebeb; text-align: center; line-height: 63px; margin-right: 10px; margin-bottom: 10px; }
+
+.list .list_bot .listr .brand .more_brand { width: 98px; color: #969696; }
+
+.list .list_bot .listr .brand .more_brand .more { width: 50px; height: 18px; padding-left: 20px; background: url("../img/more_sx.png") no-repeat; }
+
+.list .list_bot .listr .type { border-bottom: 1px solid #ebebeb; }
+
+.list .list_bot .listr .type span { display: inline-block; height: 50px; margin-left: 15px; line-height: 50px; text-align: center; padding: 0 10px; color: #969696; }
+
+.list .list_bot .listr .type span:first-child { margin-left: 55px; color: #000; }
+
+.list .list_bot .listr .choose { height: 50px; line-height: 50px; padding-left: 20px; }
+
+.list .list_bot .listr .choose span { height: 20px; line-height: 20px; display: inline-block; margin-left: 20px; border: 1px solid #EBEBEB; margin-top: 0px; padding: 2px 10px; padding-right: 40px; }
+
+.list .list_bot .page { width: 943px; height: 38px; background-color: #fafafa; border: 1px solid #efefef; margin-top: 20px; line-height: 38px; color: #666; }
+
+.list .list_bot .page .kucun { margin-left: 10px; margin-right: 20px; }
+
+.list .list_bot .page label { margin-right: 10px; }
+
+.list .list_bot .page label:hover { color: #f00; cursor: pointer; }
+
+.list .list_bot .page .su { background: url("../img/goods_list_fg.gif") no-repeat; display: inline-block; width: 20px; margin-left: 10px; margin-right: 10px; }
+
+.list .list_bot .page img { margin: 0 5px; }
+
+.list .list_bot .allgoods { width: 943px; margin-top: 20px; }
+
+.list .list_bot .allgoods a { display: block; width: 300px; height: 423px; float: left; border: 2px solid #fff; }
+
+.list .list_bot .allgoods a img { width: 300px; height: 300px; }
+
+.list .list_bot .allgoods a p { width: 258px; padding-left: 20px; line-height: 20px; margin-top: 30px; }
+
+.list .list_bot .allgoods a p .temai { color: #d29b0b; }
+
+.list .list_bot .allgoods a .price { display: inline-block; color: #E21735; padding-left: 30px; font-size: 18px; height: 26px; line-height: 26px; margin-top: 10px; }
+
+.list .list_bot .allgoods a .type { display: inline-block; padding: 2px 5px; background-color: #4fc4d8; color: #fff; border-radius: 4px; position: relative; left: 100px; }
+
+.list .list_bot .allgoods a:hover { border: 2px solid #eee; }

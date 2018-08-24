@@ -5,9 +5,7 @@
     <title>登陆</title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" href="../css/sign.css" />
-    <script src="../lib/jquery-3.2.1.js"></script>
-    <script src="../js/common.js"></script>
-    <script src="../js/sign.js"></script>
+    
 </head>
 <body>
     <header>
@@ -31,24 +29,24 @@
                 <img src="../img/xuser_girl.jpg" alt="" />
             </div>
             <div class="login fl">
-                <p class="clearfix">登录Login<span class="fr">没有账号，现在去<a href="#">注册</a></span></p>
+                <p class="clearfix">登录Login<span class="fr">没有账号，现在去<a href="register.html">注册</a></span></p>
 
                 <button class="login_phone">手机动态登陆</button>
                 <button class="login_common">普通登录</button>
                 <!-- 手机动态登录表单 -->
-                <form action="#" class="lp">
-                    <input type="number" placeholder="输入正确的手机号码" class="phone_num" /><br />
+                <div action="#" class="lp" id="form_sign"  onsubmit="return false;">
+                    <input type="number" placeholder="输入正确的手机号码" class="phone_num" name="phone_num" /><br />
                     <input type="text" class="auth" /><span class="show_code"></span><br />
                     <input type="text" class="code" placeholder="手机动态码" /><span class="get_code">获取动态码</span><br />
-                    <input type="submit" value="登录" class="btn_login" />
-                </form>
+                    <input type="submit" value="登录" class="btn_loginl" />
+                </div>
 
                 <!-- 普通登录表单 -->
-                <form action="#" class="lc">
-                    <input type="text" class="cmt" placeholder="用户名/手机"  /><br />
-                    <input type="password" placeholder="密码" class="cmp" /><br />
-                    <input type="submit" value="登录" class="btn_login" /><a href="#">忘记密码?</a>
-                </form>
+                <div action="#" class="lc"  onsubmit="return false;">
+                    <input type="text" class="cmt" placeholder="用户名/手机" name="phone_num" /><br />
+                    <input type="password" placeholder="密码" class="cmp" name="password" /><br />
+                    <input type="submit" value="登录" class="btn_loginr" name="btn" /><a href="#">忘记密码?</a>
+                </div>
 
                 <div class="an">
                     <p>使用合作平台账号登录：</p>
@@ -92,5 +90,8 @@
         </div>
             
     </footer>
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/sign.js"></script>
 </body>
 </html>

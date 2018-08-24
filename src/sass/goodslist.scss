@@ -1,0 +1,243 @@
+.list{
+    .list_top{
+        height: 50px;
+        line-height: 50px;
+        padding-left: 20px;
+        
+    }
+
+    .list_bot{
+        .listl{
+            width: 240px;
+            ul{
+                border-left:1px solid #ebebeb;
+                border-top:1px solid #ebebeb;
+                li{
+                    height: 40px;
+                    line-height: 35px;
+                    padding-left: 20px;
+                    border-right:1px solid #ebebeb;
+                    border-bottom: 1px solid #ebebeb;
+                    a{
+                        color:#737373;
+                    }
+                    a.active{
+                        color:#cd0000;
+                    }
+                }
+                li:first-child{
+                    background-color: #fafafa;
+                    padding-left: 10px;
+                    height: 35px;
+                }
+            }
+
+            img{
+                // display:block;
+                margin-top: 20px;
+            }
+            .hot{
+                border:1px solid #e2e2e2;
+                margin-top: 20px;
+                padding-bottom: 20px;
+                h3{
+                    background:#fafafa url("../img/goods_right_bg.gif") no-repeat;
+                    height: 35px;
+                    border-bottom: 1px solid #e2e2e2;
+                    text-align:center;
+                    line-height: 35px;
+                }
+                .hot_list{
+                    text-align:center;
+                    a{
+                        color:#535353;
+                        img{
+                            width:150px;
+                        }
+                        p{
+                            width:150px;
+                            padding-left: 40px;
+                            text-align:left;
+                            line-height: 18px;
+                        }
+                    }
+                    p{
+                        text-align:left;
+                        padding-left: 40px;
+                        .pri{
+                            color:#B9966A;
+                            line-height: 18px;
+                            margin-right:5px;
+
+                        }
+                    
+                    }
+                    
+                }
+            }
+        }
+        .listr{
+            border:1px solid #ebebeb;
+            margin-left: 15px;
+            width:943px;
+            color:#000;
+            h3{
+                background-color: #fafafa;
+                padding-left: 10px;
+                height: 30px;
+                line-height: 30px;
+                border-bottom: 1px solid #ebebeb;
+            }
+            .brand{
+                padding:15px 0;
+                border-bottom: 1px solid #ebebeb;
+                .brandl{
+                    width:90px;
+                    height: 18px;
+                    margin-right:15px;
+                    text-align:right;
+                }
+                .brandr{
+                    width:810px;
+                    span{
+                        display:inline-block;
+                        width:183px;
+                        height: 63px;
+                        border:1px solid #ebebeb;
+                        text-align:center;
+                        line-height: 63px;
+                        margin-right:10px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .more_brand{
+                    width: 98px;
+                    color:#969696;
+                    .more{
+                        width:50px;
+                        height: 18px;
+                        padding-left: 20px;
+                        background: url("../img/more_sx.png") no-repeat;
+                    }
+                }
+            }
+
+            .type{
+                border-bottom: 1px solid #ebebeb;
+                span{
+                    display:inline-block;
+                    height: 50px;
+                    margin-left: 15px;
+                    line-height: 50px;
+                    text-align:center;
+                    padding:0 10px;
+                    color:#969696;
+                }
+                span:first-child{
+                    margin-left: 55px;
+                    color:#000;
+                }
+            }
+            .choose{
+                height: 50px;
+                line-height: 50px;
+                padding-left: 20px;
+                span{
+                    height: 20px;
+                    line-height: 20px;
+                    display:inline-block;
+                    margin-left:20px;
+                    border:1px solid #EBEBEB;
+                    margin-top: 0px;
+                    padding:2px 10px;
+                    padding-right: 40px;
+                }
+            }
+
+        }
+
+        .page{
+            width:943px;
+            height: 38px;
+            background-color: #fafafa;
+            border: 1px solid #efefef;
+            margin-top: 20px;
+            line-height: 38px;
+            color:#666;
+            .kucun{
+                margin-left: 10px;
+                margin-right:20px;
+            }
+            label{
+                margin-right:10px;
+            }
+            label:hover{
+                color:#f00;
+                cursor: pointer;
+            }
+            .su{
+                background: url("../img/goods_list_fg.gif") no-repeat;
+                display:inline-block;
+                width:20px;
+                margin-left: 10px;
+                margin-right:10px;
+            }
+            .yiju{
+                
+            }
+            img{
+                margin:0 5px;
+            }
+
+
+        }
+        .allgoods{
+            width:943px;
+            margin-top: 20px;
+            a{
+                display:block;
+                width:300px;
+                height: 423px;
+                float:left;
+                border:2px solid #fff;
+                img{
+                    width:300px;
+                    height: 300px;
+                }
+                p{
+                    width:258px;
+                    padding-left: 20px;
+                    line-height: 20px;
+                    margin-top: 30px;
+                    .temai{
+                        color:#d29b0b;
+                    }
+                }
+                .price{
+                    display:inline-block;
+                    color:#E21735;
+                    padding-left: 30px;
+                    font-size: 18px;
+                    height: 26px;
+                    line-height: 26px;
+                    margin-top: 10px;
+                }
+                .type{
+                    display:inline-block;
+                    
+                    padding:2px 5px;
+                    background-color: #4fc4d8;
+                    color:#fff;
+                    border-radius: 4px;
+                    position:relative;
+                    left:100px;
+                }
+            }
+            a:hover{
+                border:2px solid #eee;
+            }
+        }
+    }
+
+}
