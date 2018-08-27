@@ -1,0 +1,30 @@
+{
+  "name": "guojimami",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-lp/guojimami.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-lp/guojimami/issues"
+  },
+  "homepage": "https://github.com/carlos-lp/guojimami#readme"
+}
