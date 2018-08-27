@@ -12,7 +12,7 @@ var Carousel = function(options){
                     button:false,//是否显示左右按钮
                     type:'fade',//动画类型：vertical(垂直)，horizontal(水平),fade(淡入淡出)
                     seamless:true,//是否无缝滚动,
-                    duration:3000,//轮播间隔时间
+                    duration:2000,//轮播间隔时间
                 }
                 
                 // 扩展默认参数
@@ -179,7 +179,8 @@ var Carousel = function(options){
                 width:648,
                 height:204,
                 page:false,
-            })
+            });
+            
 
 
 

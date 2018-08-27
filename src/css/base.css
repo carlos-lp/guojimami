@@ -43,9 +43,11 @@ header .site-logo .search ul li a:hover { text-decoration: underline; }
 
 header .site-logo .search input { width: 270px; height: 26px; border: 2px solid #C61A2F; float: left; padding-left: 6px; }
 
-header .site-logo .search button { width: 30px; height: 30px; background-color: #C61A2F; border: 0 none; float: left; box-sizing: border-box; }
+header .site-logo .search button { width: 30px; height: 30px; background: #C61A2F url("../img/search.gif") no-repeat 4px 4px; border: 0 none; float: left; box-sizing: border-box; }
 
 nav { background: url("../img/naver_bj.gif"); }
+
+nav ul { position: relative; }
 
 nav ul li { float: left; }
 
@@ -55,7 +57,41 @@ nav ul li a.active { color: #e19619; }
 
 nav ul li a:hover { color: #e19619; }
 
-footer .foot_guid { border: 1px solid #D7D7D7; overflow: hidden; }
+.nav2 { width: 1200px; position: absolute; top: 39px; left: -10px; padding-top: 16px; padding-bottom: 20px; border: 1px solid #ddd; display: none; z-index: 2000; background-color: #fff; }
+
+.nav2 div { padding-left: 35px; }
+
+.nav2 .mm { width: 175px; border-right: 1px solid #ddd; height: 350px; }
+
+.nav2 .mm h3 { font-weight: bold; line-height: 30px; color: #000; }
+
+.nav2 .mm a { display: block; height: 30px; line-height: 30px; color: #535353; }
+
+.nav2 .mm a:hover { color: #e19619; }
+
+.nav2 .cty { width: 270px; border-right: 1px solid #ddd; height: 350px; padding-right: 160px; }
+
+.nav2 .cty h3 { font-weight: bold; line-height: 30px; color: #000; }
+
+.nav2 .cty a { display: inline-block; height: 30px; line-height: 30px; color: #535353; margin-right: 20px; }
+
+.nav2 .cty a:hover { color: #e19619; }
+
+.nav2 .cty .all_country { display: block; margin-top: 20px; }
+
+.nav2 .bnd { width: 250px; }
+
+.nav2 .bnd h3 { font-weight: bold; line-height: 30px; color: #000; }
+
+.nav2 .bnd a { display: block; height: 30px; line-height: 30px; color: #535353; }
+
+.nav2 .bnd a:hover { color: #e19619; }
+
+.nav2 .nav2img { padding-left: 0; }
+
+.nav2 .nav2img img, .nav2 .nav2img header .site-navs .site-menu, header .site-navs .nav2 .nav2img .site-menu { margin-right: 20px; }
+
+footer .foot_guid { border: 1px solid #D7D7D7; overflow: hidden; margin-top: 40px; }
 
 footer .foot_guid ul { height: 284px; width: 150px; padding-top: 14px; border-right: 1px solid #D7D7D7; float: left; }
 

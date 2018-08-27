@@ -38,6 +38,8 @@
 
 .shop_list .td8 { width: 9%; }
 
+.shop_list .selected { background-color: #FFF5F5; }
+
 .shop_list table { width: 100%; }
 
 .shop_list table tbody { text-align: center; width: 100%; border: 1px solid #ddd; line-height: 35px; }
@@ -50,4 +52,44 @@
 
 .shop_list .yh a span { color: #ff2837; }
 
-.shop_list .acc { border: 1px solid #ccc; height: 122px; margin-top: 20px; }
+.shop_list .cart_shop tr { height: 84px; border-bottom: 1px solid #ddd; }
+
+.shop_list .cart_shop tr td img { width: 75px; height: 50px; }
+
+.shop_list .cart_shop tr td.td2 img { display: block; float: left; line-height: 108px; padding-left: 20px; }
+
+.shop_list .cart_shop tr td.td2 a { display: block; float: left; height: 50px; color: #969696; }
+
+.shop_list .cart_shop tr td.td2 a p { width: 380px; text-align: left; height: 17px; }
+
+.shop_list .cart_shop tr td.td2 a:hover { text-decoration: underline; }
+
+.shop_list .cart_shop tr td.td5 { text-align: center; }
+
+.shop_list .cart_shop tr td.td5 span { margin: 0px 5px; display: inline-block; width: 48px; height: 27px; line-height: 27px; border: 1px solid #e4e4e4; }
+
+.shop_list .cart_shop tr td.td5 img { width: 20px; height: 20px; }
+
+.shop_list .cart_shop tr td.td6 { color: #C40000; font-weight: bold; }
+
+.shop_list .cart_shop tr td.td8 input { color: #e19619; background: none; padding: 0 5px; cursor: pointer; }
+
+.shop_list .cart_shop tr td.td8 input:hover { text-decoration: underline; }
+
+.shop_list .acc { border: 1px solid #ccc; height: 122px; margin-top: 20px; color: #969696; }
+
+.shop_list .acc .acct { line-height: 61px; margin-left: 30px; }
+
+.shop_list .acc .acct input { margin-right: 5px; }
+
+.shop_list .acc .acct p { display: inline-block; }
+
+.shop_list .acc .acct p span { color: #e10000; margin-right: 35px; }
+
+.shop_list .acc .accb { height: 61px; width: 1160px; border-top: 1px solid #d7d7d7; margin-left: 20px; padding: 15px 1px; }
+
+.shop_list .acc .accb button { width: 194px; height: 34px; line-height: 34px; text-align: center; background-color: #fbfbfb; border: 1px solid #d7d7d7; color: #969696; border-radius: 3px; }
+
+.shop_list .acc .accb button.caa { float: left; margin-left: 10px; }
+
+.shop_list .acc .accb button.continue { float: right; margin-right: 10px; }

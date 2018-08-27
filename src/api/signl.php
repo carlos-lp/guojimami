@@ -2,16 +2,12 @@
     include 'connect.php';
     header('Content-Type:application/json;charset=utf-8');
 
-    
-    $sql = "select * from goods where type='newGoods'";
+    $phone_num = isset($_POST['phone_num']) ? $_POST['phone_num'] : null;
+    $password = isset($_POST['password']) ? $_POST['password'] : null;
+    $sql = "select * from user where phoneNum='$phone_num'";
     $result = $conn->query($sql);
     if($result->num_rows>0){
-        
-        while($row = $result->fetch_all()) {
-            
-            echo json_encode($row);
-        };
-        
+        echo "success";
     }else{
         echo "fail";
         

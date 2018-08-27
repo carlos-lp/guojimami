@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <title>购物车</title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/sign.css" />
     <link rel="stylesheet" type="text/css" href="../css/cart.css" />
     <script src="../lib/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="/js/common.js" type="text/javascript"></script>
     <script src="../js/cart.js"></script>
 </head>
 <body>
@@ -33,7 +35,7 @@
                 <table>
                     <tbody>
                         <tr>
-                            <td class="td1"><label><input type="checkbox" id="all">全选</label></td>
+                            <td class="td1"><label><input type="checkbox" class="all" name="checkAll">全选</label></td>
                             <td class="td2">购物袋中的商品</td>
                             <td class="td3">直邮方式</td>
                             <td class="td4">单价（元）</td>
@@ -44,18 +46,28 @@
                         </tr>
                     </tbody>
                 </table>
+
                 <div class="yh clearfix">
                     <span class="manjian">满减</span><a href="#">辅食营养满减专场 再购<span>199.00</span>元立享【满199减10】></a>
                 </div>
+
                 <table>
-                    <tbody id="cart_shop">
-                        dfsad
+                    <tbody class="cart_shop">
+                        
                     </tbody>
                 </table>
+
                 <div class="acc">
-                    <div class="acct"></div>
-                    <div class="accb"></div>
+                    <div class="acct">
+                        <label><input type="checkbox" name="checkAll" class="all">全选</label>
+                        <p>商品金额总计 （不含运费）：<span class="total">￥0.00</span>商品税费</p>
+                    </div>
+                    <div class="accb clearfix">
+                        <button class="caa">立即结算</button>
+                        <button class="continue">继续购物</button>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

@@ -109,11 +109,52 @@
                 text-decoration:underline;
             }
         }
-        .weight{
-            color:#969696;
+        // .weight{
+        //     color:#969696;
+        //     margin-bottom: 20px;
+        //     span{
+        //         color:#535353;
+        //     }
+        // }
+        
+        .combo{
             margin-bottom: 20px;
-            span{
-                color:#535353;
+            div{
+                float: left;
+                width: 88px;
+                border-left: 1px solid #e3e3e3;
+                border-top: 1px solid #e3e3e3;
+                margin-left: 10px;
+                cursor: pointer;
+                p{
+                    height: 22px;
+                    line-height: 22px;
+                    border-right: 1px solid #e3e3e3;
+                    border-bottom: 1px solid #e3e3e3;
+                    text-align:center;
+                    span{
+
+                    }
+                }
+            }
+            .act{
+                border-color:#f00;
+                    p{
+                        border-color:#f00;
+                    }
+                    p:nth-child(1){
+                        border-bottom-color: #e3e3e3;
+                    }
+            }
+            div:hover{
+                    @extend .act;
+                }
+            .choose{ 
+                @extend div;
+                width: 65px;
+                border:0 none;
+                line-height: 40px;
+                margin-left: 0px;
             }
         }
         .dinggou{
@@ -139,6 +180,7 @@
             border: 1px solid #ccc;
             border-radius: 3px;
             font-size: 16px;
+            cursor: pointer;
         }
         .jwsm{
             width: 560px;
@@ -166,10 +208,11 @@
         position: absolute;
         width:30px;
         height:30px;
-        border:1px solid #fc0;
-        background-color:#ff0;
-        background-color: rgba(255,255,0,0.3);
-        filter:alpha(Opacity=30);
+        border:1px solid #ccc;
+        background-color:#fff;
+        opacity:0.3;
+        // background-color: rgba(255,255,0,0.3);
+        // filter:alpha(Opacity=30);
 
     }
 }

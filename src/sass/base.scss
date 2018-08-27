@@ -106,7 +106,7 @@ header{
         button{
             width: 30px;
             height: 30px;
-            background-color: #C61A2F;
+            background: #C61A2F url("../img/search.gif") no-repeat 4px 4px;
             border:0 none;float: left;
             box-sizing:border-box;
         }
@@ -117,6 +117,7 @@ header{
 nav{
     background: url("../img/naver_bj.gif");
     ul{
+        position:relative;
         li{
             float: left;
             
@@ -136,21 +137,98 @@ nav{
             }
         }
     }
+    
 }
 //二级导航
-// .milk{
-//     position:relative;
-//     .milk2{
-//         position:absolute;
-        
-//     }
-// }
+.nav2{
+    width: 1200px;
+    position:absolute;
+    top:39px;
+    left:-10px;
+    padding-top:16px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+    display:none;
+    z-index:2000;
+    background-color: #fff;
+    div{
+        padding-left: 35px;
+    }
+    .mm{
+        width:175px;
+        border-right:1px solid #ddd;
+        height: 350px;
+        h3{
+            font-weight: bold;
+            line-height: 30px;
+            color:#000;
+        }
+        a{
+            display:block;
+            height: 30px;
+            line-height: 30px;
+            color:#535353;
+        }
+        a:hover{
+            color:#e19619;
+        }
+    }
+    .cty{
+        width:270px;
+        border-right:1px solid #ddd;
+        height: 350px;
+        padding-right:160px;
+        h3{
+            font-weight: bold;
+            line-height: 30px;
+            color:#000;
+        }
+        a{
+            display:inline-block;
+            height: 30px;
+            line-height: 30px;
+            color:#535353;
+            margin-right:20px;
+        }
+        a:hover{
+            color:#e19619;
+        }
+        .all_country{
+            display:block;
+            margin-top: 20px;
+        }
+    }
+    .bnd{
+        width: 250px;
+        h3{
+            font-weight: bold;
+            line-height: 30px;
+            color:#000;
+        }
+        a{
+            display:block;
+            height: 30px;
+            line-height: 30px;
+            color:#535353;
+        }
+        a:hover{
+            color:#e19619;
+        }
+    }
+    .nav2img{
+        padding-left: 0;
+        img{
+            margin-right:20px;
+        }
+    }
+}
 
 
 footer{
     .foot_guid{
         border: 1px solid #D7D7D7;
         overflow:hidden;
+        margin-top: 40px;
         ul{
             height: 284px;
             width: 150px;

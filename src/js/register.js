@@ -22,13 +22,13 @@ $(function(){
     btn.onclick = function(){
         var show_code = document.querySelector('.show_code').innerHTML;
         var code = document.querySelector('.code').value;
-        if(code != show_code){
-            alert('您输入的验证码不正确');
-            return false;
-        }
+        // if(code != show_code){
+        //     alert('您输入的验证码不正确');
+        //     return false;
+        // }
 
     }
-    $('.reg_num').on('blur',function(){
+    $('.reg_num').on('change',function(){
       if(!/^1[3-9]\d{9}$/.test($reg_num.val())){
         alert('手机号格式不正确');
             return false;
@@ -71,13 +71,14 @@ $(function(){
                  reg_num:$('.reg_num').val(),
                  set_psw:$('.set_psw').val()
             },
-            dataType:'json',
+            dataType:'text',
             success:function($result){
-                if($result=='fail'){
-                    alert('123');
-                    break;
+                if($result=='unexist'){
+                    
+                    alert('注册成功');
+                        window.location.href="../html/success.html";
                     }else{
-                        alert('success');
+                        alert('用户已存在');
                     }
                 }
         });

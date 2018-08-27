@@ -4,13 +4,16 @@
 
     $reg_num = isset($_POST['reg_num']) ? $_POST['reg_num'] : null;
     $set_psw = isset($_POST['set_psw']) ? $_POST['set_psw'] : null;
-    $sql = "select * from user where reg_num='$reg_num'";
+    $sql = "select count(1) as num from user where phoneNum='$reg_num'";
     $result = $conn->query($sql);
-    if($result){
-        echo "success";
+    $res = $result->fetch_assoc();
+    // echo $res['num'];die();
+    if($res['num'] > 0){
+        echo "exist";
     }else{
-        echo "fail";
-        $sql = "insert into user(phoneNum,password) values('$reg_num','$set_psw')";
+        $sql1 = "insert into user(phoneNum,password) values('$reg_num','$set_psw')";
+        $res = $conn->query($sql1);
+        echo "unexist"; 
+        //插入数据库不成功
     }
-    // echo json_encode($res,JSON_UNESCAPED_UNICODE);
 ?>

@@ -238,6 +238,63 @@
                 border:2px solid #eee;
             }
         }
+        .pages{
+            width:945px;
+            text-align:right;
+            margin:20px 0 50px 0;
+            height: 40px;
+            line-height: 40px;
+            font-size: 13px;
+            .pageb{
+                display:inline-block;
+                a{
+                width:50px;
+                display:inline-block;
+                width:32px;
+                height: 32px;
+                border:1px solid #e2e0e0;
+                text-align:center;
+                line-height: 32px;
+                background-color: #fcfcfc;
+                margin-right: 5px;
+                cursor: pointer;
+                }
+                a:hover{
+                    color:#ff2837;
+                }
+                .active{
+                    background-color: #6d6d6d;
+                    color:#fff;
+                }
+            }
+            input{
+                width:61px;
+                display:inline-block;
+                border:1px solid #e2e0e0;
+                text-align:center;
+                line-height: 32px;
+                background-color: #fcfcfc;
+                padding:0 8px;
+                cursor:pointer;
+            }
+            .nextpage{
+                margin:0 5px;
+            }
+            .nextpage:hover{
+                color:#ff2837;
+
+            }
+            .topage{
+                padding:0;
+                width:31px;
+                margin:0 10px;
+                cursor: default;
+            }
+            .sure{
+               margin-left: 10px;
+            }
+
+        }
     }
 
 }

@@ -83,3 +83,23 @@
 .list .list_bot .allgoods a .type { display: inline-block; padding: 2px 5px; background-color: #4fc4d8; color: #fff; border-radius: 4px; position: relative; left: 100px; }
 
 .list .list_bot .allgoods a:hover { border: 2px solid #eee; }
+
+.list .list_bot .pages { width: 945px; text-align: right; margin: 20px 0 50px 0; height: 40px; line-height: 40px; font-size: 13px; }
+
+.list .list_bot .pages .pageb { display: inline-block; }
+
+.list .list_bot .pages .pageb a { width: 50px; display: inline-block; width: 32px; height: 32px; border: 1px solid #e2e0e0; text-align: center; line-height: 32px; background-color: #fcfcfc; margin-right: 5px; cursor: pointer; }
+
+.list .list_bot .pages .pageb a:hover { color: #ff2837; }
+
+.list .list_bot .pages .pageb .active { background-color: #6d6d6d; color: #fff; }
+
+.list .list_bot .pages input { width: 61px; display: inline-block; border: 1px solid #e2e0e0; text-align: center; line-height: 32px; background-color: #fcfcfc; padding: 0 8px; cursor: pointer; }
+
+.list .list_bot .pages .nextpage { margin: 0 5px; }
+
+.list .list_bot .pages .nextpage:hover { color: #ff2837; }
+
+.list .list_bot .pages .topage { padding: 0; width: 31px; margin: 0 10px; cursor: default; }
+
+.list .list_bot .pages .sure { margin-left: 10px; }

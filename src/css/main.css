@@ -1,6 +1,6 @@
 .main_banner { position: relative; }
 
-.fade { height: 420px; position: relative; }
+.fade { height: 423px; position: relative; overflow: hidden; border-bottom: 1px solid #ddd; }
 
 .fade li { position: absolute; text-align: center; width: 100%; }
 
@@ -41,6 +41,8 @@
 .time_t a { margin-left: 15px; }
 
 .time_t a:hover { color: #e19619; }
+
+.time_b p { padding-left: 30px; height: 24px; line-height: 24px; }
 
 .ad { height: 96px; float: right; width: 279px; background-color: #FFF; margin-top: 14px; padding-top: 15px; text-align: center; padding-left: 15px; }
 
